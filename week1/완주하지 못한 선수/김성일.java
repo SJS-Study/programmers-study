@@ -6,7 +6,7 @@ class Solution {
         String answer = "";
         Map<String , Integer> data = makeHash(completion);
         answer = getAnswer(participant , data);
-        return answer;
+        return answer; // 김성일.java
     }
     private Map<String , Integer> makeHash(String[] completion){
         Map<String , Integer> map = new HashMap<>();
