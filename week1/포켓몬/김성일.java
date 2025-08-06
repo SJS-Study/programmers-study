@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Solution { // 김성일 프로그래머스 해쉬 폰켓몬
     public int solution(int[] nums) {
         Map<Integer, Integer> map = countPokeMon(nums);
         return answer(nums, map);
