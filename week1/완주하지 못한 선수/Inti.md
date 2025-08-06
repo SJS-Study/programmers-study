@@ -13,3 +13,11 @@
             map.put(person, map.getOrDefault(person, 0) + 1);
         ```
   3. `return "error";` 대신 예외를 던지는 것도 좋은 방법이에요.
+
+## 세은
+- 완주하지 못한 선수
+  1. ```java
+      for (String c : completion)
+        map.put(c, map.get(c) - 1);
+     //이 부분에서 개수가 0이면 삭제할 경우 마지막에 검색 속도를 빠르게 할 수 있을 것 같아요.
+``` 
